@@ -7,12 +7,12 @@ export const about = {
     embracing life's adventures one line of code at a time!`,
     socials: {
         linkedIn: 'https://in.linkedin.com/in/irfan-shaik1997',
-        mail: 'irfanshaik1997@gmail.com',
+        mail: 'irfanshaikwork@gmail.com',
     },
     details: {
         firstname: 'Irfan',
         lastname: 'Shaikh',
-        email: 'irfanshaik1997@gmail.com',
+        email: 'irfanshaikwork@gmail.com',
         nationality: 'Indian',
         degree: "Bachelor's",
         address: 'Mumbai, Maharashtra',
