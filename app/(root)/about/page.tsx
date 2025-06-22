@@ -76,6 +76,17 @@ const Page = () => {
                                 </span>{' '}
                                 {about.details.degree}
                             </li>
+                            <li className='p-4 bg-[#3f3f46] rounded'>
+                                <span className='text-gray-500 dark:text-gray-400'>
+                                    Contact:
+                                </span>{' '}
+                                <Link
+                                    className='text-gray-200'
+                                    href={`tel:${about.details.contact}`}
+                                >
+                                    {about.details.contact}
+                                </Link>
+                            </li>
                         </ul>
                         <ul className='space-y-2 mt-3 md:mt-0'>
                             <li className='p-4 bg-[#3f3f46] rounded'>
@@ -86,7 +97,7 @@ const Page = () => {
                             </li>
                             <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400 mr-1'>
-                                    email:
+                                    Email:
                                 </span>
                                 <Link
                                     className='text-gray-200'
@@ -107,6 +118,7 @@ const Page = () => {
                                 </span>{' '}
                                 {about.details.interests}
                             </li>
+                            
                         </ul>
                     </div>
                 </div>

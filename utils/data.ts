@@ -18,6 +18,7 @@ export const about = {
         address: 'Mumbai, Maharashtra',
         interests: 'Motorcycling, Learning about new things',
         experience: '2 Years',
+        contact:7021797398
     },
     skills: {
         frontend: [
@@ -54,6 +55,13 @@ export const education = [
 ];
 
 export const work = [
+    {
+        title: 'FreeLance - FrontEnd',
+        location: 'Mumbai, Maharashtra ',
+        date: 'Nov 2024 - April 2024',
+        description: `Developed a responsive and secure front-end interface using Next.js, Material UI, and JavaScript for a document
+validation platform that acted as a trusted third-party between students and international universities. The system
+streamlined the verification process of academic documents for students applying abroad`},
     {
         title: 'Frontend Retainer(Consultant) - Pivot Roots',
         location: 'Mumbai, Maharashtra ',
