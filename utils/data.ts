@@ -6,7 +6,7 @@ export const about = {
      When I'm not coding, you'll find me savoring a cup of tea, exploring new cafes. Just another day, 
     embracing life's adventures one line of code at a time!`,
     socials: {
-        linkedIn: 'https://in.linkedin.com/in/irfan-shaik1997',
+        linkedIn: 'https://www.linkedin.com/in/irfan-shaik1997/',
         mail: 'irfanshaikwork@gmail.com',
     },
     details: {
@@ -18,14 +18,13 @@ export const about = {
         address: 'Mumbai, Maharashtra',
         interests: 'Motorcycling, Learning about new things',
         experience: '2 Years',
-        contact:7021797398
+        contact:'+91-7021797398'
     },
     skills: {
         frontend: [
             'Next Js',
             'React Js',
-            'Javascript',
-            'ES6',
+            'Javascript(ES6+)',
             'jQuery',
             'Scss',
             'Material UI',
@@ -58,7 +57,7 @@ export const work = [
     {
         title: 'FreeLance - FrontEnd',
         location: 'Mumbai, Maharashtra ',
-        date: 'Nov 2024 - April 2024',
+        date: 'Nov 2024 - Present',
         description: `Developed a responsive and secure front-end interface using Next.js, Material UI, and JavaScript for a document
 validation platform that acted as a trusted third-party between students and international universities. The system
 streamlined the verification process of academic documents for students applying abroad`},
