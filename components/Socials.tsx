@@ -9,7 +9,7 @@ interface SocialsProps {
 const Socials: React.FC<SocialsProps> = ({ emailShow = true }) => {
     return (
         <div className='mt-4 lg:mt-0'>
-            <Button
+            {/* <Button
                 className='underline'
                 as={Link}
                 variant='light'
@@ -17,8 +17,8 @@ const Socials: React.FC<SocialsProps> = ({ emailShow = true }) => {
                 href={about.socials.linkedIn}
             >
                 LinkedIn
-            </Button>
-            {emailShow && (
+            </Button> */}
+            {/* {emailShow && (
                 <Button
                     className='underline'
                     as={Link}
@@ -27,7 +27,7 @@ const Socials: React.FC<SocialsProps> = ({ emailShow = true }) => {
                 >
                     Email
                 </Button>
-            )}
+            )} */}
         </div>
     );
 };

@@ -1,12 +1,12 @@
 export const about = {
     name: 'Irfan Shaikh',
     position: 'Frontend Engineer',
-    bio: `Frontend Developer & Life Enthusiast: I’m the guy who's been immersed in code for nearly 2 years, 
+    bio: `Frontend Developer & Life Enthusiast: I’m the guy who's been immersed in code for nearly 3 years, 
     crafting sleek interfaces with the latest frontend technologies. From startups to national corporations.
      When I'm not coding, you'll find me savoring a cup of tea, exploring new cafes. Just another day, 
     embracing life's adventures one line of code at a time!`,
     socials: {
-        linkedIn: 'https://www.linkedin.com/in/irfan-shaik1997/',
+        // linkedIn: 'https://www.linkedin.com/in/irfan-shaik1997/',
         mail: 'irfanshaikwork@gmail.com',
     },
     details: {
@@ -17,7 +17,7 @@ export const about = {
         degree: "Bachelor's",
         address: 'Mumbai, Maharashtra',
         interests: 'Motorcycling, Learning about new things',
-        experience: '2 Years',
+        experience: '3 Years',
         contact:'+91-7021797398'
     },
     skills: {
@@ -55,12 +55,10 @@ export const education = [
 
 export const work = [
     {
-        title: 'FreeLance - FrontEnd',
+        title: 'KClub Technologies - Software Developer',
         location: 'Mumbai, Maharashtra ',
         date: 'Nov 2024 - Present',
-        description: `Developed a responsive and secure front-end interface using Next.js, Material UI, and JavaScript for a document
-validation platform that acted as a trusted third-party between students and international universities. The system
-streamlined the verification process of academic documents for students applying abroad`},
+        description: `Built new features and enhancements including dashboards, responsive layouts, and dynamic UI flows withReact hooks and Next.js routing & Optimized workflows using Formik/Yup validation, debouncing, and lazy loading, reducing load times by 40%.`},
     {
         title: 'Frontend Retainer(Consultant) - Pivot Roots',
         location: 'Mumbai, Maharashtra ',
