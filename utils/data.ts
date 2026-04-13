@@ -1,10 +1,10 @@
 export const about = {
     name: 'Irfan Shaikh',
-    position: 'Frontend Engineer',
-    bio: `Frontend Developer & Life Enthusiast: I’m the guy who's been immersed in code for nearly 3 years, 
-    crafting sleek interfaces with the latest frontend technologies. From startups to national corporations.
-     When I'm not coding, you'll find me savoring a cup of tea, exploring new cafes. Just another day, 
-    embracing life's adventures one line of code at a time!`,
+    position: 'Full Stack Developer',
+    bio: `Full Stack Developer with 3 years of experience building fast, scalable web applications using React.js and
+Next.js. Strong in SSR, performance optimization, and UI architecture, consistently achieving 90+
+Lighthouse scores and improving load times by up to 40%. Currently expanding backend capabilities
+with Node.js and Express.`,
     socials: {
         // linkedIn: 'https://www.linkedin.com/in/irfan-shaik1997/',
         mail: 'irfanshaikwork@gmail.com',
@@ -32,6 +32,10 @@ export const about = {
             'Bootstrap',
             'CSS',
             'HTML',
+        ], 
+        backend: [
+            'Node JS',
+            'Express JS'
         ],
         tools: ['Google Analytics', 'Mo-Engage','LightHouse', 'Github', 'Postman', 'Jira (Agile Methodologies)'],
         soft: [

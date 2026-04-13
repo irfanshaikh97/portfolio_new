@@ -21,6 +21,18 @@ const Skills = () => {
                             </Chip>
                         ))}
                     </Tab>
+                    <Tab key='Backend' title='Backend'>
+                        {about.skills.backend.map((x) => (
+                            <Chip
+                                key={x}
+                                className='m-2'
+                                color='secondary'
+                                variant='dot'
+                            >
+                                {x}
+                            </Chip>
+                        ))}
+                    </Tab>
                     <Tab key='Tools' title='Tools'>
                         {about.skills.tools.map((x) => (
                             <Chip
